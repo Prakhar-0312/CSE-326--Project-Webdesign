@@ -1,0 +1,144 @@
+*{
+    text-decoration: none;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(134, 129, 129);
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+#mainname{
+    font-family: fantasy;
+  -webkit-text-stroke: 2px aquamarine;
+  -webkit-text-fill:rgb(22, 14, 29);
+    size: 34px;
+    font-weight: 900;
+    
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 20px 20px 0;
+}
+header nav ul{
+margin: 0 auto;
+display: block;
+}
+header nav ul li{ 
+display: inline-block;
+
+border: 2px;
+list-style: none;
+padding: 0 16px;
+}
+
+header nav ul li a{
+    font-family: fantasy;
+    font-size:16px;
+    font-weight: 900;
+    color:whitesmoke;
+}
+header nav ul li ul {
+    display: block;
+    position: relative;
+}
+ .ls{
+    font-family: monospace;
+    position: relative;
+    border-style: solid;
+    font-weight: 900;
+    padding: 15px 30px;
+    color:#0a83ec;
+
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+     transition: 0.2s;
+     float: right;
+    margin-top: -50px;
+    border-color: blanchedalmond;
+}
+
+ .ls:hover{
+    color:#255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+  
+  }
+  
+.index-banner{
+    margin-left: 200px;
+    width: 75%;
+    margin-top: 10px;
+    height: 300px;
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.index-banner h1{
+    font-family: sans-serif;
+    font-size: 80px;
+    color: rgb(255, 115, 0);
+    text-shadow: 2px 2px #111;
+}
+.index-banner h2{
+    font-family: sans-serif;
+    font-size: 80px;
+    color: rgb(162, 155, 218);
+    text-shadow: 2px 2px #111;
+}
+.index-banner h3{
+    font-family: sans-serif;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #111;
+}
+
+
+#logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.categories{
+    background-color: rgb(111, 168, 233);
+    font-family: fantasy;
+    margin:20px;
+    width:100%;
+    height:100px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    
+}
+.offers{font-family:fantasy;
+    float: center;
+    margin:20px;
+    width:100%;
+    height:100px;
+    background-color: rgb(245, 151, 43);
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+}
+footer{
+    width:calc(100%-80px);
+    padding: 40px 40px;  
+    margin-top:20px;
+    background-color: #111;
+}
+footer table{
+    color: cornsilk;
+}
+footer table td{
+    width: 100px;
+}
